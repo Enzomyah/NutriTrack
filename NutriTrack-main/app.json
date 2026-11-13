@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "NutriTrackApp",
+    "slug": "NutriTrack2025",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/NutriTrackLOGO.png",
+    "scheme": "nutritrackapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/images/NutriTrackLOGO.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.enzomyahh.NutriTrackApp"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/NutriTrackLOGO.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6af7a9e5-f4c7-424d-a656-8a3576826ed9"
+      }
+    },
+    "owner": "enzomyahhhh"
+  }
+}
